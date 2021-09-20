@@ -7,13 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="79*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <Label x:Name="lblN1" Content="Digite o primeiro número" HorizontalAlignment="Left" Margin="58,10,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtN1" HorizontalAlignment="Left" Margin="63,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Margin="63,82,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="lblN2" Content="Digite o segundo número:" HorizontalAlignment="Left" Margin="58,56,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtN2" HorizontalAlignment="Left" Margin="63,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnSomar" Content="Somar" HorizontalAlignment="Left" Margin="63,105,0,0" VerticalAlignment="Top" Width="120" Click="btnSomar_Click"/>
-        <Label x:Name="lblResultado" Content="Apague o content" HorizontalAlignment="Left" Margin="63,130,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblResultado" Content="Apague o content" HorizontalAlignment="Left" Margin="63,217,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnSubtrair" Content="Subtrair" HorizontalAlignment="Left" Margin="63,130,0,0" VerticalAlignment="Top" Width="120" Click="btnSubtrair_Click"/>
+        <Button x:Name="btnMultiplicar" Content="Multiplicar" HorizontalAlignment="Left" Margin="63,155,0,0" VerticalAlignment="Top" Width="120" Click="btnMultiplicar_Click"/>
+        <Button x:Name="btnDividir" Content="Dividir" HorizontalAlignment="Left" Margin="63,180,0,0" VerticalAlignment="Top" Width="120" Click="btnDividir_Click"/>
 
     </Grid>
 </Window>

@@ -38,5 +38,47 @@ namespace calculadoraSimples
             //Exibindo o resultado convertido em string
             lblResultado.Content = res.ToString();
         }
+
+        private void btnSubtrair_Click(object sender, RoutedEventArgs e)
+        {
+            //Declarando as variáveis
+            double n1, n2, res;
+
+            //Efetuando a entrada de dados
+            n1 = Convert.ToDouble(txtN1.Text);
+            n2 = Convert.ToDouble(txtN2.Text);
+            //Efetuando o cálculo
+            res = n1 - n2;
+            //Exibindo o resultado convertido em string
+            lblResultado.Content = res.ToString();
+        }
+
+        private void btnMultiplicar_Click(object sender, RoutedEventArgs e)
+        {
+            //Declarando as variáveis
+            double n1, n2, res;
+
+            //Efetuando a entrada de dados
+            n1 = Convert.ToDouble(txtN1.Text);
+            n2 = Convert.ToDouble(txtN2.Text);
+            //Efetuando o cálculo
+            res = n1 * n2;
+            //Exibindo o resultado convertido em string
+            lblResultado.Content = res.ToString();
+        }
+
+        private void btnDividir_Click(object sender, RoutedEventArgs e)
+        {
+            //Declarando as variáveis
+            double n1, n2, res;
+
+            //Efetuando a entrada de dados
+            n1 = Convert.ToDouble(txtN1.Text);
+            n2 = Convert.ToDouble(txtN2.Text);
+            //Efetuando o cálculo
+            res = n1 / n2;
+            //Exibindo o resultado convertido em string
+            lblResultado.Content = res.ToString();
+        }
     }
 }
