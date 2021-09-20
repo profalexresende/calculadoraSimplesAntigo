@@ -1,0 +1,19 @@
+﻿<Window x:Class="calculadoraSimples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:calculadoraSimples"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblN1" Content="Digite o primeiro número" HorizontalAlignment="Left" Margin="58,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtN1" HorizontalAlignment="Left" Margin="63,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="63,82,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblN2" Content="Digite o segundo número:" HorizontalAlignment="Left" Margin="58,56,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtN2" HorizontalAlignment="Left" Margin="63,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSomar" Content="Somar" HorizontalAlignment="Left" Margin="63,105,0,0" VerticalAlignment="Top" Width="120" Click="btnSomar_Click"/>
+        <Label x:Name="lblResultado" Content="Apague o content" HorizontalAlignment="Left" Margin="63,130,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
